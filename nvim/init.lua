@@ -38,3 +38,4 @@ end
 
 require("vim-options")
 require("lazy").setup("plugins")
+require("float-term")
