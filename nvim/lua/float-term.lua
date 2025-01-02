@@ -90,7 +90,6 @@ function FloatTerm(...)
   })
 end
 
--- esc to normal mode in terminal mode
-vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")
+
 -- open terminal without spamming new windows
 vim.keymap.set("n", "<leader>t", FloatTerm)
